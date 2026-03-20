@@ -1,0 +1,2854 @@
+{
+  "anti_lock_braking_system": {
+    "values": [
+      {
+        "key": "true"
+      }
+    ],
+    "tags": [
+      "safety"
+    ],
+    "synonyms": [
+      "abs",
+      "anti-lock brakes",
+      "anti-lock braking system",
+      "antilock braking system"
+    ]
+  },
+  "transmission_type": {
+    "values": [
+      {
+        "key": "manual"
+      },
+      {
+        "key": "automatic (tc)"
+      },
+      {
+        "key": "automatic"
+      },
+      {
+        "key": "automatic (dct)"
+      },
+      {
+        "key": "automatic (amt)"
+      },
+      {
+        "key": "automatic (cvt)"
+      },
+      {
+        "key": "automatic (e-cvt)"
+      },
+      {
+        "key": "clutchless manual (imt)"
+      }
+    ],
+    "tags": [
+      "performance",
+      "driving experience"
+    ],
+    "synonyms": [
+      "gearbox",
+      "gearbox type",
+      "transmission",
+      "transmission type"
+    ]
+  },
+  "seat_belt_warning": {
+    "values": [
+      {
+        "key": "true"
+      }
+    ],
+    "tags": [
+      "safety"
+    ],
+    "synonyms": [
+      "seat belt alert",
+      "seat belt reminder",
+      "seat belt warning",
+      "seatbelt warning"
+    ]
+  },
+  "overspeed_warning": {
+    "values": [
+      {
+        "key": "1 beep over 80kmph, continuous beeps over 120kmph"
+      },
+      {
+        "key": "1 beep over 80kmph"
+      }
+    ],
+    "tags": [
+      "safety"
+    ],
+    "synonyms": [
+      "overspeed alert",
+      "overspeed warning",
+      "speed alert",
+      "speed warning"
+    ]
+  },
+  "doors": {
+    "values": [
+      {
+        "key": "5"
+      },
+      {
+        "key": "4"
+      },
+      {
+        "key": "2"
+      },
+      {
+        "key": "3"
+      }
+    ],
+    "tags": [
+      "design",
+      "space",
+      "convenience"
+    ],
+    "synonyms": [
+      "door count",
+      "doors",
+      "number of doors"
+    ]
+  },
+  "seating_capacity": {
+    "values": [
+      {
+        "key": "5"
+      },
+      {
+        "key": "7"
+      },
+      {
+        "key": "4"
+      },
+      {
+        "key": "6"
+      },
+      {
+        "key": "8"
+      },
+      {
+        "key": "2"
+      },
+      {
+        "key": "10"
+      },
+      {
+        "key": "13"
+      },
+      {
+        "key": "9"
+      }
+    ],
+    "tags": [
+      "space",
+      "comfort"
+    ],
+    "synonyms": [
+      "number of seats",
+      "seat capacity",
+      "seating capacity",
+      "seats"
+    ]
+  },
+  "no_of_rows": {
+    "values": [
+      {
+        "key": "2"
+      },
+      {
+        "key": "3"
+      },
+      {
+        "key": "true"
+      }
+    ],
+    "tags": [
+      "space",
+      "comfort"
+    ],
+    "synonyms": [
+      "number of rows",
+      "row count",
+      "rows"
+    ]
+  },
+  "drivetrain": {
+    "values": [
+      {
+        "key": "fwd"
+      },
+      {
+        "key": "rwd"
+      },
+      {
+        "key": "awd"
+      },
+      {
+        "key": "4wd"
+      }
+    ],
+    "tags": [
+      "performance"
+    ],
+    "synonyms": [
+      "drive train",
+      "drivetrain",
+      "powertrain"
+    ]
+  },
+  "emission_standard": {
+    "values": [
+      {
+        "key": "bs6 phase 2"
+      },
+      {
+        "key": "not applicable"
+      },
+      {
+        "key": "bs 6"
+      }
+    ],
+    "tags": [
+      "efficiency",
+      "environment"
+    ],
+    "synonyms": [
+      "emission norm",
+      "emission standard",
+      "emissions standard",
+      "pollution standard"
+    ]
+  },
+  "airbags": {
+    "values": [
+      {
+        "key": "6"
+      },
+      {
+        "key": "2 (driver & co-driver)"
+      },
+      {
+        "key": "7"
+      },
+      {
+        "key": "2"
+      },
+      {
+        "key": "8"
+      },
+      {
+        "key": "6 airbags"
+      },
+      {
+        "key": "10"
+      },
+      {
+        "key": "9"
+      },
+      {
+        "key": "1 (driver only)"
+      },
+      {
+        "key": "4"
+      },
+      {
+        "key": "4 (driver, co-driver & rear passengers)"
+      },
+      {
+        "key": "3 airbags"
+      },
+      {
+        "key": "8 airbags"
+      },
+      {
+        "key": "11"
+      },
+      {
+        "key": "7 airbags"
+      },
+      {
+        "key": "14"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "9 airbags"
+      }
+    ],
+    "tags": [
+      "safety"
+    ],
+    "synonyms": [
+      "air bag",
+      "airbag",
+      "airbag system",
+      "airbags"
+    ]
+  },
+  "headrest_up_down": {
+    "values": [
+      {
+        "key": "manual"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "electric"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "down",
+      "headrest",
+      "headrest up down",
+      "headrest_up_down",
+      "up"
+    ]
+  },
+  "backrest_tilt_forward_back": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "manual"
+      },
+      {
+        "key": "electric"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "back",
+      "backrest",
+      "backrest tilt forward back",
+      "backrest_tilt_forward_back",
+      "forward",
+      "tilt"
+    ]
+  },
+  "seat_height_up_down": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "electric"
+      },
+      {
+        "key": "manual"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ],
+    "synonyms": [
+      "down",
+      "height",
+      "seat",
+      "seat height up down",
+      "seat_height_up_down",
+      "seating",
+      "up"
+    ]
+  },
+  "headrest_forward_back": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "electric"
+      },
+      {
+        "key": "manual"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "back",
+      "forward",
+      "headrest",
+      "headrest forward back",
+      "headrest_forward_back"
+    ]
+  },
+  "seat_adjustment": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "6 way"
+      },
+      {
+        "key": "8 way"
+      },
+      {
+        "key": "4 way"
+      },
+      {
+        "key": "2 way"
+      },
+      {
+        "key": "10 way"
+      },
+      {
+        "key": "true"
+      },
+      {
+        "key": "12 way"
+      },
+      {
+        "key": "14 way"
+      },
+      {
+        "key": "18 way"
+      },
+      {
+        "key": "22 way"
+      },
+      {
+        "key": "16 way"
+      },
+      {
+        "key": "26 way"
+      },
+      {
+        "key": "20 way"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ],
+    "synonyms": [
+      "adjustment",
+      "seat",
+      "seat adjustment",
+      "seat_adjustment",
+      "seating"
+    ]
+  },
+  "extended_thigh_support_forward_back": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "electric"
+      },
+      {
+        "key": "manual"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "back",
+      "extended",
+      "extended thigh support forward back",
+      "extended_thigh_support_forward_back",
+      "forward",
+      "support",
+      "thigh"
+    ]
+  },
+  "lumbar_forward_back": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "electric"
+      },
+      {
+        "key": "manual"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "back",
+      "forward",
+      "lumbar",
+      "lumbar forward back",
+      "lumbar_forward_back"
+    ]
+  },
+  "lumbar_up_down": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "electric"
+      },
+      {
+        "key": "manual"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "down",
+      "lumbar",
+      "lumbar up down",
+      "lumbar_up_down",
+      "up"
+    ]
+  },
+  "seat_forward_back": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "manual"
+      },
+      {
+        "key": "electric"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ],
+    "synonyms": [
+      "back",
+      "forward",
+      "seat",
+      "seat forward back",
+      "seat_forward_back",
+      "seating"
+    ]
+  },
+  "seat_base_angle_up_down": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "electric"
+      },
+      {
+        "key": "manual"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ],
+    "synonyms": [
+      "angle",
+      "base",
+      "down",
+      "seat",
+      "seat base angle up down",
+      "seat_base_angle_up_down",
+      "seating",
+      "up"
+    ]
+  },
+  "shoulder_support_forward_back": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "electric"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "back",
+      "forward",
+      "shoulder",
+      "shoulder support forward back",
+      "shoulder_support_forward_back",
+      "support"
+    ]
+  },
+  "backrest_bolsters_in_out": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "electric"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "backrest",
+      "backrest bolsters in out",
+      "backrest_bolsters_in_out",
+      "bolsters",
+      "in",
+      "out"
+    ]
+  },
+  "shoulder_support_bolsters_in_out": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "electric"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "bolsters",
+      "in",
+      "out",
+      "shoulder",
+      "shoulder support bolsters in out",
+      "shoulder_support_bolsters_in_out",
+      "support"
+    ]
+  },
+  "seat_base_bolsters_in_out": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "electric"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ],
+    "synonyms": [
+      "base",
+      "bolsters",
+      "in",
+      "out",
+      "seat",
+      "seat base bolsters in out",
+      "seat_base_bolsters_in_out",
+      "seating"
+    ]
+  },
+  "wheels": {
+    "values": [
+      {
+        "key": "alloy wheels"
+      },
+      {
+        "key": "steel rims"
+      },
+      {
+        "key": "diamond-cut alloy wheels"
+      },
+      {
+        "key": "aero alloy wheels"
+      },
+      {
+        "key": "steel rims + wheel covers"
+      },
+      {
+        "key": "steel rims + black wheel covers"
+      }
+    ],
+    "tags": [
+      "design",
+      "style"
+    ],
+    "synonyms": [
+      "wheels"
+    ]
+  },
+  "infotainment": {
+    "values": [
+      {
+        "key": "touch-screen display"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "triple-screen display"
+      },
+      {
+        "key": "digital display"
+      },
+      {
+        "key": "lcd display"
+      },
+      {
+        "key": "dual screen"
+      },
+      {
+        "key": "tft display"
+      },
+      {
+        "key": "curved dual-screen display"
+      },
+      {
+        "key": "optional"
+      }
+    ],
+    "tags": [
+      "infotainment",
+      "technology"
+    ],
+    "synonyms": [
+      "entertainment system",
+      "infotainment"
+    ]
+  },
+  "driver": {
+    "values": [
+      {
+        "key": "true"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "driver"
+    ]
+  },
+  "front_tyre_diameter": {
+    "values": [
+      {
+        "key": "16"
+      },
+      {
+        "key": "17"
+      },
+      {
+        "key": "18"
+      },
+      {
+        "key": "15"
+      },
+      {
+        "key": "19"
+      },
+      {
+        "key": "14"
+      },
+      {
+        "key": "20"
+      },
+      {
+        "key": "21"
+      },
+      {
+        "key": "22"
+      },
+      {
+        "key": "13"
+      },
+      {
+        "key": "12"
+      },
+      {
+        "key": "23"
+      }
+    ],
+    "tags": [
+      "convenience",
+      "safety",
+      "technology"
+    ],
+    "synonyms": [
+      "diameter",
+      "front",
+      "front tyre diameter",
+      "front_tyre_diameter",
+      "tire",
+      "tyre"
+    ]
+  },
+  "memory_presets": {
+    "values": [
+      {
+        "key": "not available"
+      },
+      {
+        "key": "true"
+      },
+      {
+        "key": "2"
+      },
+      {
+        "key": "3"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "memory",
+      "memory presets",
+      "memory_presets",
+      "presets"
+    ]
+  },
+  "child_seat_anchor_points": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "safety"
+    ],
+    "synonyms": [
+      "child anchor points",
+      "child seat anchors",
+      "isofix anchor points"
+    ]
+  },
+  "rear_tyre_diameter": {
+    "values": [
+      {
+        "key": "16"
+      },
+      {
+        "key": "17"
+      },
+      {
+        "key": "18"
+      },
+      {
+        "key": "15"
+      },
+      {
+        "key": "19"
+      },
+      {
+        "key": "14"
+      },
+      {
+        "key": "20"
+      },
+      {
+        "key": "21"
+      },
+      {
+        "key": "13"
+      },
+      {
+        "key": "22"
+      },
+      {
+        "key": "12"
+      },
+      {
+        "key": "23"
+      }
+    ],
+    "tags": [
+      "convenience",
+      "safety",
+      "technology"
+    ],
+    "synonyms": [
+      "diameter",
+      "rear",
+      "rear tyre diameter",
+      "rear_tyre_diameter",
+      "tire",
+      "tyre"
+    ]
+  },
+  "third_row_ac": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "blower"
+      },
+      {
+        "key": "not applicable"
+      },
+      {
+        "key": "vents only"
+      },
+      {
+        "key": "separate zone"
+      }
+    ],
+    "tags": [
+      "space"
+    ],
+    "synonyms": [
+      "ac",
+      "row",
+      "rows",
+      "third",
+      "third row ac",
+      "third_row_ac"
+    ]
+  },
+  "third_row_ac_vents": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "vents on roof"
+      },
+      {
+        "key": "vents on side panels"
+      },
+      {
+        "key": "vents on pillars"
+      },
+      {
+        "key": "not applicable"
+      }
+    ],
+    "tags": [
+      "space"
+    ],
+    "synonyms": [
+      "ac",
+      "row",
+      "rows",
+      "third",
+      "third row ac vents",
+      "third_row_ac_vents",
+      "vents"
+    ]
+  },
+  "rear_ac_vents": {
+    "values": [
+      {
+        "key": "vents behind front armrest"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "vents on pillars"
+      },
+      {
+        "key": "vents on roof"
+      },
+      {
+        "key": "vents behind front armrest and on pillars"
+      },
+      {
+        "key": "vents behind front armrest and on roof"
+      },
+      {
+        "key": "vents on roof and pillars"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "ac",
+      "rear",
+      "rear ac vents",
+      "rear_ac_vents",
+      "vents"
+    ]
+  },
+  "tyre_pressure_monitoring_system": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "optional"
+      },
+      {
+        "key": "direct"
+      }
+    ],
+    "tags": [
+      "convenience",
+      "safety",
+      "technology"
+    ],
+    "synonyms": [
+      "tire pressure monitor",
+      "tire pressure monitoring",
+      "tpms",
+      "tyre pressure monitoring system"
+    ]
+  },
+  "front_row_ac_zone": {
+    "values": [
+      {
+        "key": "single zone"
+      },
+      {
+        "key": "two zones"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "space"
+    ],
+    "synonyms": [
+      "ac",
+      "front",
+      "front row ac zone",
+      "front_row_ac_zone",
+      "row",
+      "rows",
+      "zone"
+    ]
+  },
+  "third_row_ac_fan_speed_controls": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "common fan speed controls"
+      },
+      {
+        "key": "true"
+      },
+      {
+        "key": "not applicable"
+      }
+    ],
+    "tags": [
+      "space"
+    ],
+    "synonyms": [
+      "ac",
+      "controls",
+      "fan",
+      "row",
+      "rows",
+      "speed",
+      "third",
+      "third row ac fan speed controls",
+      "third_row_ac_fan_speed_controls"
+    ]
+  },
+  "air_conditioner_control": {
+    "values": [
+      {
+        "key": "automatic climate control"
+      },
+      {
+        "key": "automatic climate control: dual zone"
+      },
+      {
+        "key": "manual"
+      },
+      {
+        "key": "automatic climate control: four zone"
+      },
+      {
+        "key": "automatic climate control: three zone"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "automatic climate control: five zone"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "air",
+      "air conditioner control",
+      "air_conditioner_control",
+      "conditioner",
+      "control"
+    ]
+  },
+  "front_ac_fan_speed_controls": {
+    "values": [
+      {
+        "key": "common fan speed control"
+      },
+      {
+        "key": "individual fan speed controls"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "ac",
+      "controls",
+      "fan",
+      "front",
+      "front ac fan speed controls",
+      "front_ac_fan_speed_controls",
+      "speed"
+    ]
+  },
+  "child_safety_lock": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "safety"
+    ],
+    "synonyms": [
+      "child lock",
+      "child safety",
+      "child safety lock"
+    ]
+  },
+  "rear_ac_fan_speed_controls": {
+    "values": [
+      {
+        "key": "no fan speed control"
+      },
+      {
+        "key": "common fan speed control"
+      },
+      {
+        "key": "individual fan speed controls"
+      },
+      {
+        "key": "not applicable"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "ac",
+      "controls",
+      "fan",
+      "rear",
+      "rear ac fan speed controls",
+      "rear_ac_fan_speed_controls",
+      "speed"
+    ]
+  },
+  "third_row_cup_holders": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "true"
+      }
+    ],
+    "tags": [
+      "space"
+    ],
+    "synonyms": [
+      "cup",
+      "holders",
+      "row",
+      "rows",
+      "third",
+      "third row cup holders",
+      "third_row_cup_holders"
+    ]
+  },
+  "adjustable_orvms": {
+    "values": [
+      {
+        "key": "auto folding"
+      },
+      {
+        "key": "electrically adjustable & retractable"
+      },
+      {
+        "key": "electrically adjustable"
+      },
+      {
+        "key": "internally adjustable"
+      },
+      {
+        "key": "externally adjustable"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "adjustable",
+      "adjustable orvms",
+      "adjustable_orvms",
+      "orvms"
+    ]
+  },
+  "sunroof_moonroof": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "panoramic"
+      },
+      {
+        "key": "electrically adjustable"
+      },
+      {
+        "key": "fixed glass panoramic"
+      },
+      {
+        "key": "electro-transparent panoramic"
+      },
+      {
+        "key": "optional"
+      },
+      {
+        "key": "fixed glass"
+      }
+    ],
+    "tags": [
+      "comfort",
+      "design",
+      "style"
+    ],
+    "synonyms": [
+      "moonroof",
+      "open roof",
+      "roof",
+      "sunroof"
+    ]
+  },
+  "central_locking": {
+    "values": [
+      {
+        "key": "keyless"
+      },
+      {
+        "key": "remote"
+      },
+      {
+        "key": "true"
+      },
+      {
+        "key": "manual key-operated"
+      },
+      {
+        "key": "remote central locking with boot opener"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "keyless central locking with ultra-wideband"
+      },
+      {
+        "key": "nfc card\u2013based"
+      },
+      {
+        "key": "keyless central locking with walk-away lock"
+      },
+      {
+        "key": "nfc mobile\u2013based"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "central",
+      "central locking",
+      "central_locking",
+      "locking"
+    ]
+  },
+  "headlights": {
+    "values": [
+      {
+        "key": "led"
+      },
+      {
+        "key": "led projector"
+      },
+      {
+        "key": "halogen"
+      },
+      {
+        "key": "halogen projector"
+      },
+      {
+        "key": "bi-led projector"
+      }
+    ],
+    "tags": [
+      "safety",
+      "technology"
+    ],
+    "synonyms": [
+      "headlamp",
+      "headlamps",
+      "headlights"
+    ]
+  },
+  "tyre_construction": {
+    "values": [
+      {
+        "key": "radial - tubeless"
+      },
+      {
+        "key": "radial - with tube"
+      },
+      {
+        "key": "run-flat"
+      },
+      {
+        "key": "crossply"
+      }
+    ],
+    "tags": [
+      "convenience",
+      "safety",
+      "technology"
+    ],
+    "synonyms": [
+      "construction",
+      "tire",
+      "tyre",
+      "tyre construction",
+      "tyre_construction"
+    ]
+  },
+  "driver_armrest": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ],
+    "synonyms": [
+      "armrest",
+      "driver",
+      "driver armrest",
+      "driver_armrest"
+    ]
+  },
+  "speakers": {
+    "values": [
+      {
+        "key": "4"
+      },
+      {
+        "key": "6"
+      },
+      {
+        "key": "8"
+      },
+      {
+        "key": "6+"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "2"
+      },
+      {
+        "key": "16"
+      },
+      {
+        "key": "12"
+      },
+      {
+        "key": "9"
+      },
+      {
+        "key": "10"
+      },
+      {
+        "key": "5"
+      },
+      {
+        "key": "7"
+      },
+      {
+        "key": "19"
+      },
+      {
+        "key": "15"
+      },
+      {
+        "key": "17"
+      },
+      {
+        "key": "18"
+      },
+      {
+        "key": "11"
+      },
+      {
+        "key": "13"
+      },
+      {
+        "key": "21"
+      },
+      {
+        "key": "14"
+      },
+      {
+        "key": "44"
+      },
+      {
+        "key": "27"
+      }
+    ],
+    "tags": [
+      "technology",
+      "infotainment"
+    ],
+    "synonyms": [
+      "sound system speakers",
+      "speaker count",
+      "speakers"
+    ]
+  },
+  "headrests": {
+    "values": [
+      {
+        "key": "front & rear"
+      },
+      {
+        "key": "front, second & third"
+      },
+      {
+        "key": "front"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "headrests"
+    ]
+  },
+  "third_row_seat_type": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "bench"
+      },
+      {
+        "key": "not applicable"
+      },
+      {
+        "key": "jump seats"
+      },
+      {
+        "key": "captain seats"
+      }
+    ],
+    "tags": [
+      "comfort",
+      "space"
+    ],
+    "synonyms": [
+      "row",
+      "rows",
+      "seat",
+      "seating",
+      "third",
+      "third row seat type",
+      "third_row_seat_type",
+      "type"
+    ]
+  },
+  "instrument_cluster_screen_type": {
+    "values": [
+      {
+        "key": "digital"
+      },
+      {
+        "key": "analogue - digital"
+      },
+      {
+        "key": "tft"
+      },
+      {
+        "key": "analogue"
+      },
+      {
+        "key": "digital (integrated with infotainment)"
+      }
+    ],
+    "tags": [
+      "infotainment",
+      "technology"
+    ],
+    "synonyms": [
+      "cluster",
+      "display",
+      "instrument",
+      "instrument cluster screen type",
+      "instrument_cluster_screen_type",
+      "screen",
+      "type"
+    ]
+  },
+  "apple_carplay": {
+    "values": [
+      {
+        "key": "wireless"
+      },
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "wired"
+      },
+      {
+        "key": "wired + wireless"
+      },
+      {
+        "key": "optional"
+      }
+    ],
+    "tags": [
+      "technology",
+      "connectivity"
+    ],
+    "synonyms": [
+      "apple carplay",
+      "apple connectivity",
+      "carplay",
+      "ios carplay"
+    ]
+  },
+  "electronic_stability_program": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "safety",
+      "performance"
+    ],
+    "synonyms": [
+      "electronic stability control",
+      "electronic stability program",
+      "esp",
+      "stability control"
+    ]
+  },
+  "parking_sensors": {
+    "values": [
+      {
+        "key": "rear"
+      },
+      {
+        "key": "front & rear"
+      },
+      {
+        "key": "front & rear (with visual display)"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "front, rear & side"
+      }
+    ],
+    "tags": [
+      "convenience",
+      "safety",
+      "driving experience"
+    ],
+    "synonyms": [
+      "parking",
+      "parking sensors",
+      "parking_sensors",
+      "sensors"
+    ]
+  },
+  "daytime_running_lights": {
+    "values": [
+      {
+        "key": "led"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "true"
+      },
+      {
+        "key": "connected"
+      },
+      {
+        "key": "halogen"
+      }
+    ],
+    "tags": [
+      "safety",
+      "technology"
+    ],
+    "synonyms": [
+      "daytime",
+      "daytime running lights",
+      "daytime_running_lights",
+      "lights",
+      "running"
+    ]
+  },
+  "cruise_control": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "adaptive"
+      },
+      {
+        "key": "adaptive with stop and go"
+      }
+    ],
+    "tags": [
+      "convenience",
+      "driving experience",
+      "technology"
+    ],
+    "synonyms": [
+      "adaptive cruise",
+      "auto cruise",
+      "cruise control",
+      "speed control"
+    ]
+  },
+  "taillights": {
+    "values": [
+      {
+        "key": "led"
+      },
+      {
+        "key": "halogen"
+      },
+      {
+        "key": "clear lens"
+      },
+      {
+        "key": "led + halogen bulb"
+      }
+    ],
+    "tags": [
+      "safety",
+      "technology"
+    ],
+    "synonyms": [
+      "taillights"
+    ]
+  },
+  "electronic_brake_force_distribution": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "safety"
+    ],
+    "synonyms": [
+      "brake",
+      "brakes",
+      "distribution",
+      "electronic",
+      "electronic brake force distribution",
+      "electronic_brake_force_distribution",
+      "force"
+    ]
+  },
+  "front_passenger": {
+    "values": [
+      {
+        "key": "true"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "front",
+      "front passenger",
+      "front_passenger",
+      "passenger"
+    ]
+  },
+  "rear_armrest": {
+    "values": [
+      {
+        "key": "cup holder"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "true"
+      },
+      {
+        "key": "audio controls & cup holder"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ],
+    "synonyms": [
+      "armrest",
+      "rear",
+      "rear armrest",
+      "rear_armrest"
+    ]
+  },
+  "roof_rails": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "comfort",
+      "design",
+      "style"
+    ],
+    "synonyms": [
+      "rails",
+      "roof",
+      "roof rails",
+      "roof_rails"
+    ]
+  },
+  "steering_type": {
+    "values": [
+      {
+        "key": "power-assisted (electric)"
+      },
+      {
+        "key": "power-assisted (hydraulic)"
+      },
+      {
+        "key": "power assisted (electric)"
+      },
+      {
+        "key": "electronic power assist"
+      },
+      {
+        "key": "electric"
+      },
+      {
+        "key": "power steering"
+      },
+      {
+        "key": "electromechanical power steering"
+      },
+      {
+        "key": "rack & pinion"
+      },
+      {
+        "key": "electronic speed-sensitive power steering"
+      },
+      {
+        "key": "hydraulic power steering"
+      },
+      {
+        "key": "speed sensitive variable rate power assisted steering"
+      },
+      {
+        "key": "manual"
+      },
+      {
+        "key": "rack & pinon with hydraulic power assist"
+      },
+      {
+        "key": "rack and pinion power"
+      },
+      {
+        "key": "rack and pinion, servotronic speed-sensitive  power-assisted steering, 3.0 turns lock-to-lock"
+      },
+      {
+        "key": "servotronic steering system"
+      }
+    ],
+    "tags": [
+      "driving experience"
+    ],
+    "synonyms": [
+      "steer",
+      "steering",
+      "steering type",
+      "steering_type",
+      "type"
+    ]
+  },
+  "power_windows_position": {
+    "values": [
+      {
+        "key": "front & rear"
+      },
+      {
+        "key": "front only"
+      },
+      {
+        "key": "driver (with pinch guard)"
+      },
+      {
+        "key": "driver (with pinch guard) and all"
+      },
+      {
+        "key": "front (with pinch guard) & rear"
+      },
+      {
+        "key": "all (with pinch guard)"
+      },
+      {
+        "key": "all"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "front & rear (with pinch guard)"
+      }
+    ],
+    "tags": [
+      "convenience",
+      "comfort"
+    ],
+    "synonyms": [
+      "electric windows",
+      "power windows",
+      "windows"
+    ]
+  },
+  "exterior_door_handles_finish": {
+    "values": [
+      {
+        "key": "body coloured"
+      },
+      {
+        "key": "chrome"
+      },
+      {
+        "key": "black"
+      },
+      {
+        "key": "painted"
+      },
+      {
+        "key": "chrome strip"
+      },
+      {
+        "key": "dark chrome"
+      }
+    ],
+    "tags": [
+      "convenience",
+      "design",
+      "space",
+      "style"
+    ],
+    "synonyms": [
+      "door",
+      "doors",
+      "exterior",
+      "exterior door handles finish",
+      "exterior_door_handles_finish",
+      "finish",
+      "handles"
+    ]
+  },
+  "rear_passenger_seat_type": {
+    "values": [
+      {
+        "key": "bench"
+      },
+      {
+        "key": "captain seats"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "individual"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ],
+    "synonyms": [
+      "passenger",
+      "rear",
+      "rear passenger seat type",
+      "rear_passenger_seat_type",
+      "seat",
+      "seating",
+      "type"
+    ]
+  },
+  "engine_immobiliser": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "performance",
+      "power"
+    ],
+    "synonyms": [
+      "engine",
+      "engine immobiliser",
+      "engine_immobiliser",
+      "immobiliser",
+      "motor"
+    ]
+  },
+  "seat_upholstery": {
+    "values": [
+      {
+        "key": "fabric"
+      },
+      {
+        "key": "leatherette"
+      },
+      {
+        "key": "leather"
+      },
+      {
+        "key": "fabric + leatherette"
+      },
+      {
+        "key": "artificial leather"
+      },
+      {
+        "key": "vinyl"
+      },
+      {
+        "key": "nappa leather"
+      },
+      {
+        "key": "vegan leather"
+      },
+      {
+        "key": "leather + alcantara"
+      },
+      {
+        "key": "recycled material"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ],
+    "synonyms": [
+      "seat",
+      "seat upholstery",
+      "seat_upholstery",
+      "seating",
+      "upholstery"
+    ]
+  },
+  "parking_assist": {
+    "values": [
+      {
+        "key": "360 degree camera"
+      },
+      {
+        "key": "reverse camera"
+      },
+      {
+        "key": "reverse camera with guidance"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "automatic parking"
+      },
+      {
+        "key": "540 degree camera (360 degree with transparent view)"
+      },
+      {
+        "key": "optional"
+      },
+      {
+        "key": "auto steering"
+      },
+      {
+        "key": "visual display"
+      }
+    ],
+    "tags": [
+      "convenience",
+      "safety",
+      "driving experience"
+    ],
+    "synonyms": [
+      "assist",
+      "parking",
+      "parking assist",
+      "parking_assist"
+    ]
+  },
+  "steering_mounted_controls": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "convenience",
+      "driving experience"
+    ],
+    "synonyms": [
+      "steering buttons",
+      "steering controls",
+      "steering-mounted controls"
+    ]
+  },
+  "leather_wrapped_steering_wheel": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "true"
+      }
+    ],
+    "tags": [
+      "comfort",
+      "design"
+    ],
+    "synonyms": [
+      "leather steering",
+      "leather steering wheel",
+      "leather-wrapped steering wheel"
+    ]
+  },
+  "body_coloured_bumpers": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "body",
+      "body coloured bumpers",
+      "body_coloured_bumpers",
+      "bumpers",
+      "coloured"
+    ]
+  },
+  "door_pockets": {
+    "values": [
+      {
+        "key": "front & rear"
+      },
+      {
+        "key": "front"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "rear"
+      }
+    ],
+    "tags": [
+      "convenience",
+      "space"
+    ],
+    "synonyms": [
+      "door",
+      "door pockets",
+      "door_pockets",
+      "doors",
+      "pockets"
+    ]
+  },
+  "rear_wiper": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "convenience",
+      "safety",
+      "technology"
+    ],
+    "synonyms": [
+      "rear",
+      "rear wiper",
+      "rear_wiper",
+      "wiper"
+    ]
+  },
+  "four_wheel_drive": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "torque-on-demand"
+      },
+      {
+        "key": "full-time"
+      },
+      {
+        "key": "manual shift - electronic"
+      },
+      {
+        "key": "manual shift - lever"
+      }
+    ],
+    "tags": [
+      "design",
+      "style"
+    ],
+    "synonyms": [
+      "drive",
+      "four",
+      "four wheel drive",
+      "four_wheel_drive",
+      "wheel"
+    ]
+  },
+  "front_brake_type": {
+    "values": [
+      {
+        "key": "disc"
+      },
+      {
+        "key": "ventilated disc"
+      }
+    ],
+    "tags": [
+      "safety"
+    ],
+    "synonyms": [
+      "brake",
+      "brakes",
+      "front",
+      "front brake type",
+      "front_brake_type",
+      "type"
+    ]
+  },
+  "rear_brake_type": {
+    "values": [
+      {
+        "key": "disc"
+      },
+      {
+        "key": "drum"
+      },
+      {
+        "key": "ventilated disc"
+      }
+    ],
+    "tags": [
+      "safety"
+    ],
+    "synonyms": [
+      "brake",
+      "brakes",
+      "rear",
+      "rear brake type",
+      "rear_brake_type",
+      "type"
+    ]
+  },
+  "orvm_colour": {
+    "values": [
+      {
+        "key": "body-coloured"
+      },
+      {
+        "key": "black"
+      },
+      {
+        "key": "piano black"
+      },
+      {
+        "key": "dual tone"
+      },
+      {
+        "key": "grey"
+      },
+      {
+        "key": "silver"
+      },
+      {
+        "key": "chrome"
+      },
+      {
+        "key": "white"
+      },
+      {
+        "key": "roof-coloured"
+      },
+      {
+        "key": "yellow"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "colour",
+      "orvm",
+      "orvm colour",
+      "orvm_colour"
+    ]
+  },
+  "gesture_control": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "true"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "control",
+      "gesture",
+      "gesture control",
+      "gesture_control"
+    ]
+  },
+  "keyless_start_button_start": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "convenience",
+      "technology"
+    ],
+    "synonyms": [
+      "keyless ignition",
+      "keyless start",
+      "push-button start",
+      "start/stop button"
+    ]
+  },
+  "rear_ac_zones": {
+    "values": [
+      {
+        "key": "blower"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "separate zone"
+      },
+      {
+        "key": "dual zones"
+      },
+      {
+        "key": "single zone"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "ac",
+      "rear",
+      "rear ac zones",
+      "rear_ac_zones",
+      "zones"
+    ]
+  },
+  "ncap_rating": {
+    "values": [
+      {
+        "key": "not tested"
+      },
+      {
+        "key": "5 star (bharat ncap)"
+      },
+      {
+        "key": "5 star (global ncap)"
+      },
+      {
+        "key": "5 star (euro ncap)"
+      },
+      {
+        "key": "1 star (global ncap)"
+      },
+      {
+        "key": "2 star (global ncap)"
+      },
+      {
+        "key": "4 star (global ncap)"
+      },
+      {
+        "key": "3 star (global ncap)"
+      },
+      {
+        "key": "5 star (ancap)"
+      },
+      {
+        "key": "5 star (asean ncap)"
+      },
+      {
+        "key": "5 star (jncap)"
+      },
+      {
+        "key": "1 star (ancap)"
+      },
+      {
+        "key": "0 star (global ncap)"
+      },
+      {
+        "key": "4 star (bharat ncap)"
+      },
+      {
+        "key": "3 star (euro ncap)"
+      },
+      {
+        "key": "4 star (euro ncap)"
+      }
+    ],
+    "tags": [
+      "safety"
+    ],
+    "synonyms": [
+      "crash test rating",
+      "ncap rating",
+      "safety rating"
+    ]
+  },
+  "anti_glare_mirrors": {
+    "values": [
+      {
+        "key": "electronic - internal only"
+      },
+      {
+        "key": "manual - internal only"
+      },
+      {
+        "key": "electronic - all"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "electronic - internal & driver door"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "anti",
+      "anti glare mirrors",
+      "anti_glare_mirrors",
+      "glare",
+      "mirrors"
+    ]
+  },
+  "split_third_row_seat": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "50:50"
+      },
+      {
+        "key": "not applicable"
+      },
+      {
+        "key": "60:40"
+      }
+    ],
+    "tags": [
+      "comfort",
+      "space"
+    ],
+    "synonyms": [
+      "row",
+      "rows",
+      "seat",
+      "seating",
+      "split",
+      "split third row seat",
+      "split_third_row_seat",
+      "third"
+    ]
+  },
+  "android_auto": {
+    "values": [
+      {
+        "key": "wireless"
+      },
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "wired"
+      },
+      {
+        "key": "wired + wireless"
+      },
+      {
+        "key": "optional"
+      }
+    ],
+    "tags": [
+      "technology",
+      "connectivity"
+    ],
+    "synonyms": [
+      "android auto",
+      "android connectivity",
+      "google auto"
+    ]
+  },
+  "ambient_interior_lighting": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "true"
+      },
+      {
+        "key": "multi-colour"
+      },
+      {
+        "key": "footwell lamps"
+      },
+      {
+        "key": "optional"
+      },
+      {
+        "key": "switchable"
+      }
+    ],
+    "tags": [
+      "comfort",
+      "design",
+      "style"
+    ],
+    "synonyms": [
+      "ambient interior lighting",
+      "ambient lighting",
+      "mood lighting"
+    ]
+  },
+  "headlight_height_adjuster": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "safety",
+      "technology"
+    ],
+    "synonyms": [
+      "adjuster",
+      "headlamp",
+      "headlight",
+      "headlight height adjuster",
+      "headlight_height_adjuster",
+      "headlights",
+      "height"
+    ]
+  },
+  "ride_height_adjustment": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "true"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "adjustment",
+      "height",
+      "ride",
+      "ride height adjustment",
+      "ride_height_adjustment"
+    ]
+  },
+  "heater": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "heater"
+    ]
+  },
+  "rear_middle_three_point_seatbelt": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "comfort",
+      "safety"
+    ],
+    "synonyms": [
+      "middle",
+      "point",
+      "rear",
+      "rear middle three point seatbelt",
+      "rear_middle_three_point_seatbelt",
+      "seatbelt",
+      "three"
+    ]
+  },
+  "rear_defogger": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "safety",
+      "technology"
+    ],
+    "synonyms": [
+      "defogger",
+      "rear",
+      "rear defogger",
+      "rear_defogger"
+    ]
+  },
+  "average_speed": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "average",
+      "average speed",
+      "average_speed",
+      "speed"
+    ]
+  },
+  "lane_departure_warning": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "true"
+      },
+      {
+        "key": "optional"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "departure",
+      "lane",
+      "lane departure warning",
+      "lane_departure_warning",
+      "warning"
+    ]
+  },
+  "trip_meter": {
+    "values": [
+      {
+        "key": "2 trips electronic"
+      },
+      {
+        "key": "2 trips"
+      },
+      {
+        "key": "multi-function display"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "meter",
+      "trip",
+      "trip meter",
+      "trip_meter"
+    ]
+  },
+  "steering_adjustment": {
+    "values": [
+      {
+        "key": "tilt & telescopic"
+      },
+      {
+        "key": "tilt"
+      },
+      {
+        "key": "electric tilt & telescopic"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "manual tilt & telescopic"
+      },
+      {
+        "key": "electric tilt & telescopic with memory"
+      }
+    ],
+    "tags": [
+      "driving experience"
+    ],
+    "synonyms": [
+      "adjustment",
+      "steer",
+      "steering",
+      "steering adjustment",
+      "steering_adjustment"
+    ]
+  },
+  "adjustable_cluster_brightness": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "other"
+    ],
+    "synonyms": [
+      "adjustable",
+      "adjustable cluster brightness",
+      "adjustable_cluster_brightness",
+      "brightness",
+      "cluster"
+    ]
+  },
+  "driver_armrest_storage": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "comfort",
+      "space"
+    ],
+    "synonyms": [
+      "armrest",
+      "driver",
+      "driver armrest storage",
+      "driver_armrest_storage",
+      "storage"
+    ]
+  },
+  "automatic_emergency_braking": {
+    "values": [
+      {
+        "key": "false"
+      },
+      {
+        "key": "true"
+      },
+      {
+        "key": "4-wheeler, 2-wheeler & pedestrian"
+      },
+      {
+        "key": "optional"
+      }
+    ],
+    "tags": [
+      "safety"
+    ],
+    "synonyms": [
+      "auto",
+      "automatic",
+      "automatic emergency braking",
+      "automatic_emergency_braking",
+      "brakes",
+      "braking",
+      "emergency"
+    ]
+  },
+  "split_rear_seat": {
+    "values": [
+      {
+        "key": "60:40"
+      },
+      {
+        "key": "false"
+      },
+      {
+        "key": "40:20:40"
+      },
+      {
+        "key": "50:50"
+      },
+      {
+        "key": "true"
+      },
+      {
+        "key": "40:40"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ],
+    "synonyms": [
+      "rear",
+      "seat",
+      "seating",
+      "split",
+      "split rear seat",
+      "split_rear_seat"
+    ]
+  },
+  "cabin_boot_access": {
+    "values": [
+      {
+        "key": "true"
+      },
+      {
+        "key": "false"
+      }
+    ],
+    "tags": [
+      "space"
+    ],
+    "synonyms": [
+      "access",
+      "boot",
+      "cabin",
+      "cabin boot access",
+      "cabin_boot_access"
+    ]
+  }
+}
